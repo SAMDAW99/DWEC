@@ -1,3 +1,4 @@
+
 num1=Number(prompt("Introduce el primer numero:"));
 num2=Number(prompt("Introduce el segundo numero:"));
 if (num1>num2) {

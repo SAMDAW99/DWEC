@@ -4,9 +4,9 @@
  * */
 let tabla=[];
 num=Number(prompt("Introduce Un número: "));
-for (let i = 0; i <= 9 ; i++) {
+for (let i = 1; i <= 9 ; i++) {
     var resultado= num*i;
-    var cadena=` ${num} x ${i} = ${resultado}`;
+    var cadena=`<br> ${num} x ${i} = ${resultado}  `;
     tabla.push(cadena);
 }
-console.log(`la tabla de multiplicar del numero ${num} es: [${tabla}] `);
+document.write(`la tabla de multiplicar del numero ${num} es: [${tabla}] `);
